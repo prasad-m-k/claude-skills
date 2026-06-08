@@ -19,6 +19,8 @@ Skills use **progressive disclosure** — only a short description (~60 tokens) 
 | Skill | What it does | Install |
 |---|---|---|
 | [heic](./heic) | Work natively with iPhone HEIC/HEIF photos — convert, resize, crop, batch process | [heic.skill](./heic/heic.skill) |
+| [math-omml](./math-omml) | Insert typeset math (fractions, integrals, matrices, Greek letters, etc.) into Word .docx files via OMML | [math-omml.skill](./math-omml/math-omml.skill) |
+| [xlsx-charts](./xlsx-charts) | Add and configure native charts (bar, line, pie, scatter, combo) inside Excel .xlsx files with openpyxl | [xlsx-charts.skill](./xlsx-charts/xlsx-charts.skill) |
 
 ---
 
@@ -53,6 +55,12 @@ claude-skills/
 ├── heic/
 │   ├── SKILL.md          # Skill instructions (human-readable)
 │   └── heic.skill        # Packaged skill file (upload this to Claude)
+├── math-omml/
+│   ├── SKILL.md
+│   └── math-omml.skill
+├── xlsx-charts/
+│   ├── SKILL.md
+│   └── xlsx-charts.skill
 └── README.md
 ```
 
