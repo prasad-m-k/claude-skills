@@ -21,6 +21,7 @@ Skills use **progressive disclosure** — only a short description (~60 tokens) 
 | [heic](./heic) | Work natively with iPhone HEIC/HEIF photos — convert, resize, crop, batch process | [heic.skill](./heic/heic.skill) |
 | [math-omml](./math-omml) | Insert typeset math (fractions, integrals, matrices, Greek letters, etc.) into Word .docx files via OMML | [math-omml.skill](./math-omml/math-omml.skill) |
 | [xlsx-charts](./xlsx-charts) | Add and configure native charts (bar, line, pie, scatter, combo) inside Excel .xlsx files with openpyxl | [xlsx-charts.skill](./xlsx-charts/xlsx-charts.skill) |
+| [pizza-builder](./pizza-builder) | Turn a vague, open-ended creative request into an interactive menu of well-designed options instead of guessing or asking open-ended clarifying questions | [pizza-builder-SKILL.md](./pizza-builder/pizza-builder-SKILL.md) |
 
 ---
 
@@ -61,6 +62,8 @@ claude-skills/
 ├── xlsx-charts/
 │   ├── SKILL.md
 │   └── xlsx-charts.skill
+├── pizza-builder/
+│   └── pizza-builder-SKILL.md
 └── README.md
 ```
 
