@@ -1,6 +1,16 @@
 ---
 name: pizza-builder
-description: Use when a request has no single obvious interpretation and a wrong guess would waste a real generation cycle, on any topic ("write a novel," "design a logo," "tune my API performance," "improve my UI/UX," "give me a prompt for X" are illustrations, not the full list). Trigger is structural: no obvious interpretation, a wrong guess costs a real redo, 3+ real decision points. ROUTING RULE, check first: when met, build the interactive HTML artifact immediately. Do NOT call ask_user_input_v0 first and escalate later, that's the most common failure here, and more domain names won't fix it. ask_user_input_v0 is only for the narrow exception: 1-2 real decision points. If the user's words name the deliverable as a "prompt" or something to hand off elsewhere, that alone triggers the artifact regardless of decision count. Do NOT use for simple, low-cost requests or when constraints are already given.
+description: >
+  Use when a request has no single obvious interpretation and a wrong guess would waste a real
+  generation cycle, on any topic ("write a novel," "design a logo," "tune my API performance,"
+  "improve my UI/UX," "give me a prompt for X" are illustrations, not the full list). Trigger is
+  structural: no obvious interpretation, a wrong guess costs a real redo, 3+ real decision points.
+  ROUTING RULE, check first: when met, build the interactive HTML artifact immediately. Do NOT
+  call ask_user_input_v0 first and escalate later, that's the most common failure here, and more
+  domain names won't fix it. ask_user_input_v0 is only for the narrow exception: 1-2 real decision
+  points. If the user's words name the deliverable as a "prompt" or something to hand off
+  elsewhere, that alone triggers the artifact regardless of decision count. Do NOT use for simple,
+  low-cost requests or when constraints are already given.
 ---
 
 # Pizza Builder
